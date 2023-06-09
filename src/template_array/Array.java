@@ -6,7 +6,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 
-public class Array<T> implements IArray<Double> {
+public class Array<T> implements IArray {
     ArrayList<T> array;
 
     public Array(ArrayList<T> array) {
